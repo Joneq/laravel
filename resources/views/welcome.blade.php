@@ -85,11 +85,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Hi GEORGIA-LUISA
+                    Hi GEORGIA LUISA
                 </div>
 
                 <div class="links">
-                    <a href="#">GEORGIA {{date('Y-m-d H:i:s',$gtime)}} && 北京时间：{{date('Y-m-d H:i:s')}}  </a>
+                    <a href="#">GEORGIA: {{date('Y-m-d H:i:s',$gtime)}} && 中国：{{date('Y-m-d H:i:s')}}  </a>
                 </div>
 
 
