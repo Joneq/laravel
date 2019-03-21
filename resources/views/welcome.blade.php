@@ -21,7 +21,12 @@
             }
 
             body{
-                background: url(./photo/background/luisa.jpg) no-repeat center 0
+                background: url(./photo/background/luisa.jpg) no-repeat;
+                width:100%;
+                height:100%;
+                background-size:100% 100%;
+                position:absolute;
+                filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg-login.png',sizingMethod='scale');
             }
 
             .full-height {
@@ -89,7 +94,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">GEORGIA: {{date('Y-m-d H:i:s',$gtime)}} && 中国：{{date('Y-m-d H:i:s')}}  </a>
+                    <a href="#">GEORGIA: {{date('Y-m-d H:i:s',$gtime)}}   中国：{{date('Y-m-d H:i:s')}}  </a>
                 </div>
 
 
