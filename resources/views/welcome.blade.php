@@ -26,7 +26,6 @@
                 height:100%;
                 background-size:100% 100%;
                 position:absolute;
-                filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg-login.png',sizingMethod='scale');
             }
 
             .full-height {
