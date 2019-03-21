@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">wait time..</a>
+                    <a href="#">wait time...</a>
                 </div>
             </div>
         </div>
