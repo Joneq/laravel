@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">GEORGIA: {{date('Y-m-d H:i:s',$gtime)}}   中国：{{date('Y-m-d H:i:s')}}  </a>
+                    <a href="#">GEORGIA: {{date('Y-m-d H:i:s',$gtime)}}   CHINA：{{date('Y-m-d H:i:s')}}  </a>
                 </div>
 
 
