@@ -13,11 +13,15 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: rgb({{rand(0,255)}}, {{rand(0,255)}}, {{rand(0,255)}});
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+            }
+
+            body{
+                background: url(./photo/background/luisa.jpg) no-repeat center 0
             }
 
             .full-height {
@@ -49,9 +53,9 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: rgb({{rand(0,255)}}, {{rand(0,255)}}, {{rand(0,255)}});
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 19px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -85,7 +89,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">北京时间：{{date('Y-m-d H:i:s')}} && GEORGIA {{date('Y-m-d H:i:s',$gtime)}}</a>
+                    <a href="#">GEORGIA {{date('Y-m-d H:i:s',$gtime)}} && 北京时间：{{date('Y-m-d H:i:s')}}  </a>
                 </div>
 
 
@@ -94,7 +98,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">wait time...</a>
+                    <a href="#">wait more...</a>
                 </div>
             </div>
         </div>
