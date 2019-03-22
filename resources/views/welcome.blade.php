@@ -21,7 +21,7 @@
             }
 
             body{
-                background: url(./photo/background/luisa.jpg) no-repeat;
+                background: url(./photo/background/{{rand(1,13)}}.jpg) no-repeat;
                 width:100%;
                 height:100%;
                 background-size:100% 100%;
